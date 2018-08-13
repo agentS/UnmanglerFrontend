@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<title>Unmangler</title>
+	<link href="css/fonts.css" rel="stylesheet"/>
+	<link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+	<div>
+		<h1>Unmangler</h1>
+		<form id="search">
+			<div class="line">
+				<label for="txtMangled">Mangled name</label>
+				<input type="text" name="mangled" id="txtMangled"/>
+			</div>
+			<div>
+				<input type="submit" value="Unmangle">
+			</div>
+		</form>
+		<div id="result" class="line, hidden">
+			<label for="txtUnmangled">Unmangled name</label>
+			<input type="text" name="txtUnmangled" id="txtUnmangled" readonly/>
+		</div>
+	</div>
+
+	<script src="js/index.js"></script>
+</body>
+</html>

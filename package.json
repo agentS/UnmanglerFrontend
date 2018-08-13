@@ -1,0 +1,12 @@
+{
+	"name": "unmanglerfrontend",
+	"version": "0.0.0",
+	"description": "Fronted for the unmangler REST service",
+	"main": "js/index.js",
+	"scripts":
+	{
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Lukas Schoerghuber <lukas.schoerghuber@posteo.at>",
+	"license": "BSD-2-Clause"
+}
